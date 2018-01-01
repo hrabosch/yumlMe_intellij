@@ -1,14 +1,16 @@
 <idea-plugin>
   <id>org.hrabosch.yumlme.intelli.plugin</id>
-  <name>Yuml.me Diagrams Tool</name>
+  <name>Yuml.me diagram integration plugin</name>
   <version>1.0</version>
   <vendor email="ales.lanar@gmail.com" url="http://www.hrabosch.com">Hrabosch</vendor>
 
   <description><![CDATA[
-      Yuml.me diagram tool integration.<br>
-      Easy way to store source for Yuml.me diagrams on file system
-      and view them directly in IntelliJ IDEA.<br>
-      <em>most HTML tags may be used</em>
+      <h3>Yuml.me diagram integration</h3>
+      <p>Easy way to store source code for <a href="https://yuml.me/">Yuml.me</a> diagrams for project in VCS
+      and view them directly in IntelliJ IDEA.</p>
+      <p>
+      This plugin adds a new editor type for files with <strong>.yumlme</strong> extension.
+      </p>
     ]]></description>
 
   <change-notes><![CDATA[
