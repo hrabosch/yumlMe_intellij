@@ -45,8 +45,9 @@ public class YumlmeConverterUtil {
 			CloseableHttpResponse response = client.execute(get);
 
 			HttpEntity entity = response.getEntity();
+			BufferedImage generatedImage = ImageIO.read(entity.getContent());
 
-			return ImageIO.read(entity.getContent());
+			return generatedImage;
 
 		} catch (IOException e) {
 			e.printStackTrace();
